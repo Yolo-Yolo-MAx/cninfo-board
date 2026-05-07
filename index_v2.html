@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>重整与拍卖公告看板</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <style>
+    :root {
+      --navy: #0d1b2a;
+      --navy-mid: #1a2b4a;
+      --gold: #c9a84c;
+      --gold-light: #f0d9a0;
+      --bg: #f0f2f5;
+      --card-bg: #ffffff;
+      --text-primary: #1a1a1a;
+      --text-secondary: #666;
+      --text-muted: #999;
+      --border: #e2e6eb;
+      --type-zz: #b45309;
+      --type-zz-bg: #fef3c7;
+      --type-pm: #1d4ed8;
+      --type-pm-bg: #dbeafe;
+      --shadow: 0 1px 3px rgba(0,0,0,0.08);
+      --shadow-hover: 0 4px 12px rgba(0,0,0,0.12);
+      --radius: 8px;
+    }
+
+    * { margin:0; padding:0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+    }
+
+    .header {
+      background: var(--navy);
+      color: white;
+      padding: 0 40px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .header-brand { display: flex; align-items: center; gap: 12px; }
+
+    .header-logo {
+      width: 32px; height: 32px;
+      background: var(--gold);
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 14px; color: var(--navy);
+      letter-spacing: -0.5px;
+    }
+
+    .header-title { font-size: 18px; font-weight: 600; letter-spacing: 0.5px; }
+    .header-sub { font-size: 12px; color: rgba(255,255,255,0.5); margin-left: 4px; }
+
+    .header-stats { display: flex; gap: 32px; }
+
+    .stat-item { text-align: right; }
+    .stat-value { font-size: 22px; font-weight: 700; color: var(--gold); line-height: 1; }
+    .stat-label { font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 3px; }
+
+    .main { max-width: 1200px; margin: 0 auto; padding: 28px 40px 60px; }
+
+    .filter-bar {
+      display: flex; align-items: center; gap: 12px;
+      margin-bottom: 24px; flex-wrap: wrap;
+    }
+
+    .filter-tabs {
+      display: flex;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden; flex-shrink: 0;
+    }
+
+    .filter-tab {
+      padding: 8px 18px; font-size: 13px; cursor: pointer;
+      border: none; background: none; color: var(--text-secondary);
+      transition: all 0.15s; border-right: 1px solid var(--border);
+    }
+    .filter-tab:last-child { border-right: none; }
+    .filter-tab.active { background: var(--navy-mid); color: white; }
+    .filter-tab:not(.active):hover { background: #f5f5f5; color: var(--text-primary); }
+    .filter-tab .count {
+      display: inline-block; background: rgba(0,0,0,0.08);
+      border-radius: 10px; padding: 1px 6px; font-size: 11px; margin-left: 4px;
+    }
+    .filter-tab.active .count { background: rgba(255,255,255,0.2); }
+
+    .search-box { flex: 1; min-width: 200px; position: relative; }
+
+    .search-box input {
+      width: 100%; height: 38px; padding: 0 36px 0 14px;
+      border: 1px solid var(--border); border-radius: var(--radius);
+      font-size: 13px; background: var(--card-bg); color: var(--text-primary);
+      outline: none; transition: border-color 0.15s;
+    }
+    .search-box input:focus { border-color: var(--gold); }
+    .search-box input::placeholder { color: var(--text-muted); }
+    .search-icon { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 14px; }
+
+    .filter-right { display: flex; gap: 8px; margin-left: auto; }
+
+    .btn {
+      height: 38px; padding: 0 18px; border-radius: var(--radius);
+      font-size: 13px; font-weight: 500; cursor: pointer;
+      border: 1px solid var(--border); background: var(--card-bg);
+      color: var(--text-primary); transition: all 0.15s;
+      display: flex; align-items: center; gap: 6px; white-space: nowrap;
+    }
+    .btn:hover { border-color: var(--gold); color: var(--gold); }
+    .btn-primary { background: var(--navy-mid); color: white; border-color: var(--navy-mid); }
+    .btn-primary:hover { background: var(--navy); border-color: var(--navy); color: var(--gold); }
+
+    .card-list { display: flex; flex-direction: column; gap: 12px; }
+
+    .card {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 20px 24px;
+      transition: box-shadow 0.15s, border-color 0.15s;
+      display: grid; grid-template-columns: auto 1fr auto; gap: 16px 20px;
+      align-items: start;
+    }
+    .card:hover { box-shadow: var(--shadow-hover); border-color: #d0d7e2; }
+
+    .card-left { display: flex; flex-direction: column; align-items: center; gap: 8px; min-width: 52px; }
+    .type-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 3px 10px; border-radius: 4px; font-size: 12px;
+      font-weight: 600; letter-spacing: 0.3px;
+    }
+    .type-badge.zz { background: var(--type-zz-bg); color: var(--type-zz); }
+    .type-badge.pm { background: var(--type-pm-bg); color: var(--type-pm); }
+    .card-date { font-size: 12px; color: var(--text-muted); text-align: center; line-height: 1.3; }
+
+    .card-body { min-width: 0; }
+    .card-title { font-size: 14px; font-weight: 500; color: var(--text-primary); line-height: 1.5; margin-bottom: 8px; }
+    .card-title a { color: inherit; text-decoration: none; }
+    .card-title a:hover { color: var(--navy-mid); text-decoration: underline; }
+
+    .card-meta { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .card-meta-item { display: flex; align-items: center; gap: 4px; font-size: 12px; color: var(--text-secondary); }
+    .card-meta-item .label { color: var(--text-muted); }
+    .card-meta-item .value { font-weight: 500; color: var(--text-primary); }
+    .card-industry { font-size: 12px; color: var(--navy-mid); background: #f0f4f8; padding: 2px 8px; border-radius: 4px; }
+    .card-brief { font-size: 12px; color: var(--text-muted); margin-top: 6px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+    .card-right { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; min-width: 80px; }
+    .stock-code {
+      font-size: 13px; font-weight: 700; color: var(--navy-mid);
+      background: #f0f4f8; padding: 4px 10px; border-radius: 4px;
+      font-family: "SF Mono", "Cascadia Code", "Consolas", monospace;
+      letter-spacing: 0.5px;
+    }
+    .company-name { font-size: 13px; font-weight: 600; color: var(--text-primary); text-align: right; }
+    .card-link { font-size: 12px; color: var(--gold); text-decoration: none; display: flex; align-items: center; gap: 4px; margin-top: 4px; }
+    .card-link:hover { text-decoration: underline; }
+
+    .empty-state { text-align: center; padding: 80px 20px; color: var(--text-muted); }
+    .empty-state p { font-size: 14px; }
+
+    .footer { text-align: center; padding: 24px; font-size: 12px; color: var(--text-muted); border-top: 1px solid var(--border); margin-top: 40px; }
+
+    .loading { text-align: center; padding: 60px 20px; color: var(--text-muted); font-size: 14px; }
+
+    @media (max-width: 768px) {
+      .header { padding: 0 20px; }
+      .header-stats { display: none; }
+      .main { padding: 20px 20px 40px; }
+      .filter-right { width: 100%; }
+      .btn { flex: 1; justify-content: center; }
+      .card { grid-template-columns: 1fr; }
+      .card-left { flex-direction: row; justify-content: flex-start; }
+      .card-right { flex-direction: row; align-items: center; justify-content: space-between; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <div class="header-logo">CA</div>
+      <div class="header-title">重整与拍卖公告看板<span class="header-sub"> — 实时追踪</span></div>
+    </div>
+    <div class="header-stats">
+      <div class="stat-item">
+        <div class="stat-value" id="stat-total">—</div>
+        <div class="stat-label">累计公告</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="stat-today">—</div>
+        <div class="stat-label">今日新增</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="stat-zz">—</div>
+        <div class="stat-label">重整</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="stat-pm">—</div>
+        <div class="stat-label">拍卖</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <div class="filter-bar">
+    <div class="filter-tabs">
+      <button class="filter-tab active" data-filter="all">全部 <span class="count" id="count-all">—</span></button>
+      <button class="filter-tab" data-filter="重整">重整 <span class="count" id="count-zz">—</span></button>
+      <button class="filter-tab" data-filter="拍卖">拍卖 <span class="count" id="count-pm">—</span></button>
+    </div>
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="搜索股票代码、公司名称、公告标题…" />
+      <span class="search-icon">🔍</span>
+    </div>
+    <div class="filter-right">
+      <button class="btn" id="btn-today">📅 今日新增下载</button>
+      <button class="btn btn-primary" id="btn-all">📊 全部记录下载</button>
+    </div>
+  </div>
+
+  <div id="card-list"><div class="loading">加载中…</div></div>
+</main>
+
+<footer class="footer">
+  数据来源：巨潮资讯网 · 更新时间：<span id="updated-at">__UPDATED_AT__</span>
+</footer>
+
+<script>
+(function() {
+  const allRecords = "__ALL_RECORDS__";
+  const todayRecords = "__TODAY_RECORDS__";
+  let currentFilter = 'all';
+  let searchQuery = '';
+  const today = new Date().toISOString().slice(0, 10);
+
+  function updateStats() {
+    document.getElementById('stat-total').textContent = allRecords.length;
+    document.getElementById('stat-today').textContent = todayRecords.length;
+    document.getElementById('stat-zz').textContent = allRecords.filter(r => r.type === '重整').length;
+    document.getElementById('stat-pm').textContent = allRecords.filter(r => r.type === '拍卖').length;
+    document.getElementById('count-all').textContent = allRecords.length;
+    document.getElementById('count-zz').textContent = allRecords.filter(r => r.type === '重整').length;
+    document.getElementById('count-pm').textContent = allRecords.filter(r => r.type === '拍卖').length;
+  }
+
+  function getFiltered() {
+    let records = allRecords;
+    if (currentFilter !== 'all') records = records.filter(r => r.type === currentFilter);
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase();
+      records = records.filter(r =>
+        (r.stock_code || '').toLowerCase().includes(q) ||
+        (r.company || '').toLowerCase().includes(q) ||
+        (r.title || '').toLowerCase().includes(q) ||
+        (r.industry || '').toLowerCase().includes(q)
+      );
+    }
+    return records;
+  }
+
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function render() {
+    const container = document.getElementById('card-list');
+    const filtered = getFiltered();
+    if (filtered.length === 0) {
+      container.innerHTML = '<div class="empty-state"><p>暂无符合条件的公告</p></div>';
+      return;
+    }
+    const todayUrls = new Set(todayRecords.map(r => r.url));
+    container.innerHTML = filtered.map(r => {
+      const isToday = todayUrls.has(r.url);
+      const dp = (r.announcement_date || '').split('-');
+      const dateStr = dp.length === 3 ? dp[1] + '-' + dp[2] : r.announcement_date;
+      const yearStr = dp.length === 3 ? dp[0] : '';
+      return '<div class="card' + (isToday ? ' today-new' : '') + '">' +
+        '<div class="card-left">' +
+          '<span class="type-badge ' + (r.type === '重整' ? 'zz' : 'pm') + '">' + escapeHtml(r.type) + '</span>' +
+          '<div class="card-date"><div>' + dateStr + '</div><div>' + yearStr + '</div></div>' +
+        '</div>' +
+        '<div class="card-body">' +
+          '<div class="card-title"><a href="' + escapeHtml(r.url) + '" target="_blank" rel="noopener">' + escapeHtml(r.title) + '</a></div>' +
+          '<div class="card-meta">' +
+            '<div class="card-meta-item"><span class="label">行业</span><span class="card-industry">' + escapeHtml(r.industry || '—') + '</span></div>' +
+            (r.brief ? '<div class="card-brief">' + escapeHtml(r.brief) + '</div>' : '') +
+          '</div>' +
+        '</div>' +
+        '<div class="card-right">' +
+          '<div class="stock-code">' + escapeHtml(r.stock_code) + '</div>' +
+          '<div class="company-name">' + escapeHtml(r.company) + '</div>' +
+          '<a class="card-link" href="' + escapeHtml(r.url) + '" target="_blank" rel="noopener">查看公告 →</a>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  function downloadExcel(records, filename) {
+    if (!records || records.length === 0) { alert('没有可导出的数据'); return; }
+    const data = records.map(r => ({
+      '股票代码': r.stock_code || '',
+      '公司名称': r.company || '',
+      '公告日期': r.announcement_date || '',
+      '公告类型': r.type || '',
+      '公告标题': r.title || '',
+      '所属行业': r.industry || '',
+      '公司简介': r.brief || '',
+      '公告链接': r.url || '',
+    }));
+    const ws = XLSX.utils.json_to_sheet(data);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, '公告列表');
+    ws['!cols'] = [{ wch: 10 }, { wch: 20 }, { wch: 12 }, { wch: 8 }, { wch: 40 }, { wch: 30 }, { wch: 50 }, { wch: 50 }];
+    XLSX.writeFile(wb, filename);
+  }
+
+  document.querySelectorAll('.filter-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter = btn.dataset.filter;
+      render();
+    });
+  });
+
+  let searchTimer;
+  document.getElementById('search-input').addEventListener('input', e => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => { searchQuery = e.target.value; render(); }, 250);
+  });
+
+  document.getElementById('btn-all').addEventListener('click', () => downloadExcel(allRecords, `公告全部_${today}.xlsx`));
+  document.getElementById('btn-today').addEventListener('click', () => downloadExcel(todayRecords, `公告今日_${today}.xlsx`));
+
+  updateStats();
+  render();
+  console.log('公告看板加载完成，共', allRecords.length, '条记录');
+})();
+</script>
+</body>
+</html>

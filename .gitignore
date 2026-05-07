@@ -1,0 +1,13 @@
+# 敏感/本地文件
+*.py
+*.pyc
+__pycache__/
+call.py
+mcp_config.json
+
+# 数据文件（可选：如需在线查看数据可取消注释）
+# data/
+
+# 临时文件
+*.log
+.env
