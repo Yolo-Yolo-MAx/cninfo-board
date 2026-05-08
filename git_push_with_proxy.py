@@ -13,9 +13,13 @@ import os
 # 常见代理端口
 COMMON_PORTS = [10808, 7890, 1080, 10809, 8080, 1087, 7891, 7892]
 
-# Gitee 认证信息
-GITEE_REPO = "https://yolo-yo:693a5bedc99c60a9b783bb225fc4038c@gitee.com/yolo-yo/cninfo-board.git"
-GITHUB_REPO = "https://Yolo-Yolo-MAx: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@github.com/Yolo-Yolo-MAx/cninfo-board.git"
+# Gitee 认证信息（从环境变量读取，不在代码中暴露）
+GITEE_REPO = os.environ.get('GITEE_REPO', '')
+GITEE_TOKEN = os.environ.get('GITEE_TOKEN', '')
+
+# GitHub 认证信息（从环境变量读取）
+GITHUB_REPO = os.environ.get('GITHUB_REPO', '')
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 
 def find_active_proxy():
     """检测当前可用的 SOCKS5 代理端口"""
