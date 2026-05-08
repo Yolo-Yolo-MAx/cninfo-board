@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>测试</title>
+</head>
+<body>
+  <h1>测试页面</h1>
+  <div id="content">加载中...</div>
+  <script>
+    console.log('JS执行了');
+    fetch('data/announcements_all.json?_=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        console.log('数据:', data);
+        document.getElementById('content').innerHTML =
+          '共 ' + (data.records || []).length + ' 条记录';
+      })
+      .catch(e => {
+        console.error('错误:', e);
+        document.getElementById('content').innerHTML = '错误: ' + e.message;
+      });
+  </script>
+</body>
+</html>
