@@ -1,0 +1,40 @@
+{
+  "date": "2026-05-08",
+  "updated_at": "2026-05-08T18:01:19.273810",
+  "total": 3,
+  "records": [
+    {
+      "stock_code": "002360",
+      "company": "ST同德",
+      "announcement_date": "2026-05-08",
+      "announcement_time": 1778169600,
+      "title": "关于法院指定预重整辅助机构的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900010767&announcementId=1225282574&announcementTime=2026-05-08",
+      "type": "重整",
+      "industry": "基础化工-化学制品-民爆制品",
+      "brief": "山西同德化工股份有限公司的主营业务是民用炸药的研发、生产、销售（流通），以及为客户提供爆破工程的整体解决方案等相关服务。"
+    },
+    {
+      "stock_code": "000533",
+      "company": "顺钠股份",
+      "announcement_date": "2026-05-08",
+      "announcement_time": 1778169600,
+      "title": "关于股东股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000533&announcementId=1225282812&announcementTime=2026-05-08",
+      "type": "拍卖",
+      "industry": "电力设备-电网设备",
+      "brief": "广东顺钠电气股份有限公司的主营业务是为电力生产、传输、转化、存储及使用提供节能高效的技术装备、运维服务及综合解决方案。"
+    },
+    {
+      "stock_code": "002072",
+      "company": "凯瑞德",
+      "announcement_date": "2026-05-08",
+      "announcement_time": 1778169600,
+      "title": "关于控股股东部分股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900000881&announcementId=1225281845&announcementTime=2026-05-08",
+      "type": "拍卖",
+      "industry": "商贸零售-贸易Ⅱ-贸易Ⅲ",
+      "brief": "凯瑞德控股股份有限公司的主营业务是煤炭贸易业务。"
+    }
+  ]
+}
