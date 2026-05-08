@@ -71,7 +71,6 @@ def run_git_push(repo_path, remote, branch='main', proxy_port=None):
     result = subprocess.run(
         cmd,
         cwd=repo_path,
-        env=env,
         capture_output=True,
         text=True
     )
