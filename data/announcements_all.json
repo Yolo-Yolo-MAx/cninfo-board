@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-05-09T00:01:07.642751",
-  "total": 11,
+  "updated_at": "2026-05-09T00:16:47.618704",
+  "total": 12,
   "records": [
+    {
+      "stock_code": "300044",
+      "company": "*ST赛为",
+      "announcement_date": "2026-05-08",
+      "announcement_time": 1778234667,
+      "title": "关于收到重整投资人重整保证金的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900009809&announcementId=1225285484&announcementTime=2026-05-08",
+      "type": "重整",
+      "industry": "计算机-IT服务Ⅱ-IT服务Ⅲ",
+      "brief": "深圳市赛为智能股份有限公司的主营业务是适用于不同场景的机器人、无人机及图像与视频识别软件系统的研发。"
+    },
     {
       "stock_code": "002360",
       "company": "ST同德",
