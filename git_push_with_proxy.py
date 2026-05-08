@@ -35,19 +35,34 @@ def run_git_push(repo_path, remote, branch='main', proxy_port=None):
     """执行 git push"""
     cmd = ['git', 'push', remote, branch]
     
-    env = os.environ.copy()
+    # 如果有代理，临时设置 git 配置
     if proxy_port:
         proxy_url = f"socks5h://127.0.0.1:{proxy_port}"
-        env['ALL_PROXY'] = proxy_url
-        env['HTTPS_PROXY'] = proxy_url
-        env['HTTP_PROXY'] = proxy_url
         print(f"  代理: {proxy_url}")
+        # 临时设置代理（仅当前仓库）
+        subprocess.run(
+            ['git', 'config', 'http.proxy', proxy_url],
+            cwd=repo_path,
+            capture_output=True
+        )
+        subprocess.run(
+            ['git', 'config', 'https.proxy', proxy_url],
+            cwd=repo_path,
+            capture_output=True
+        )
     else:
-        # 清除代理环境变量
-        env['ALL_PROXY'] = ''
-        env['HTTPS_PROXY'] = ''
-        env['HTTP_PROXY'] = ''
         print(f"  代理: 无（直连）")
+        # 清除代理配置
+        subprocess.run(
+            ['git', 'config', '--unset', 'http.proxy'],
+            cwd=repo_path,
+            capture_output=True
+        )
+        subprocess.run(
+            ['git', 'config', '--unset', 'https.proxy'],
+            cwd=repo_path,
+            capture_output=True
+        )
     
     print(f"  仓库: {remote}")
     print(f"  分支: {branch}")
