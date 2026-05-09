@@ -1,7 +1,7 @@
 {
   "date": "2026-05-09",
-  "updated_at": "2026-05-08T16:26:22.584Z",
-  "total": 4,
+  "updated_at": "2026-05-09T15:24:47.731980",
+  "total": 5,
   "records": [
     {
       "stock_code": "002360",
@@ -46,6 +46,17 @@
       "type": "重整",
       "industry": "计算机-IT服务Ⅱ-IT服务Ⅲ",
       "brief": "深圳市赛为智能股份有限公司的主营业务是适用于不同场景的机器人、无人机及图像与视频识别软件系统的研发。"
+    },
+    {
+      "stock_code": "002191",
+      "company": "劲嘉股份",
+      "announcement_date": "2026-05-09",
+      "announcement_time": 1778256000,
+      "title": "关于控股股东部分股份司法拍卖过户完成暨权益变动触及1%整数倍的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900003910&announcementId=1225285352&announcementTime=2026-05-09",
+      "type": "拍卖",
+      "industry": "轻工制造-包装印刷-纸包装",
+      "brief": "深圳劲嘉集团股份有限公司的主营业务是中高端消费品牌的精品纸包装，镭射纸/膜、电子材料等新材料产品及新型烟草制品。"
     }
   ]
 }

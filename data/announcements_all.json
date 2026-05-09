@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-05-09T00:16:47.618704",
-  "total": 12,
+  "updated_at": "2026-05-09T15:24:47.729969",
+  "total": 13,
   "records": [
+    {
+      "stock_code": "002191",
+      "company": "劲嘉股份",
+      "announcement_date": "2026-05-09",
+      "announcement_time": 1778256000,
+      "title": "关于控股股东部分股份司法拍卖过户完成暨权益变动触及1%整数倍的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900003910&announcementId=1225285352&announcementTime=2026-05-09",
+      "type": "拍卖",
+      "industry": "轻工制造-包装印刷-纸包装",
+      "brief": "深圳劲嘉集团股份有限公司的主营业务是中高端消费品牌的精品纸包装，镭射纸/膜、电子材料等新材料产品及新型烟草制品。"
+    },
     {
       "stock_code": "300044",
       "company": "*ST赛为",
