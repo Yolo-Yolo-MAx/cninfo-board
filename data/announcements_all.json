@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-05-11T00:01:27.974692",
-  "total": 13,
+  "updated_at": "2026-05-11T12:01:48.712627",
+  "total": 14,
   "records": [
+    {
+      "stock_code": "002310",
+      "company": "东方新能",
+      "announcement_date": "2026-05-11",
+      "announcement_time": 1778428800,
+      "title": "关于部分重整投资人限售股份上市流通的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900009031&announcementId=1225285068&announcementTime=2026-05-11",
+      "type": "重整",
+      "industry": "建筑装饰-基础建设-园林工程",
+      "brief": "北京东方生态新能源股份有限公司的主营业务是新能源电站开发、投资、建设及运营。"
+    },
     {
       "stock_code": "002191",
       "company": "劲嘉股份",
