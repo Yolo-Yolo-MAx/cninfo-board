@@ -1,7 +1,7 @@
 {
   "date": "2026-05-12",
-  "updated_at": "2026-05-12T00:00:56.737090",
-  "total": 6,
+  "updated_at": "2026-05-12T12:04:01.732157",
+  "total": 13,
   "records": [
     {
       "stock_code": "002360",
@@ -68,6 +68,83 @@
       "type": "重整",
       "industry": "建筑装饰-基础建设-园林工程",
       "brief": "北京东方生态新能源股份有限公司的主营业务是新能源电站开发、投资、建设及运营。"
+    },
+    {
+      "stock_code": "600500",
+      "company": "中化国际",
+      "announcement_date": "2026-05-12",
+      "announcement_time": 1778515200,
+      "title": "中化国际关于控股子公司破产重整事项的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600500&announcementId=1225291199&announcementTime=2026-05-12",
+      "type": "重整",
+      "industry": "基础化工-基础化工-其他化学制品",
+      "brief": "中化国际(控股)股份有限公司的主营业务是化工原料、精细化工、塑料等的进出口及内销贸易，以及仓储运输和货运代理业务，橡胶助剂等的制造、加工及销售等。"
+    },
+    {
+      "stock_code": "603377",
+      "company": "ST东时",
+      "announcement_date": "2026-05-12",
+      "announcement_time": 1778515200,
+      "title": "关于被债权人申请重整及预重整的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900023616&announcementId=1225292918&announcementTime=2026-05-12",
+      "type": "重整",
+      "industry": "社会服务-教育",
+      "brief": "东方时尚驾驶学校股份有限公司的主营业务是机动车驾驶人培训和民用航空器驾驶员培训。"
+    },
+    {
+      "stock_code": "000639",
+      "company": "ST西王",
+      "announcement_date": "2026-05-12",
+      "announcement_time": 1778515200,
+      "title": "关于下属公司重整进展的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000639&announcementId=1225291940&announcementTime=2026-05-12",
+      "type": "重整",
+      "industry": "食品饮料-食品加工-保健品",
+      "brief": "西王食品股份有限公司的主营业务是食用植物油、运动营养品及体重管理相关的营养补给品的研发、生产和销售。"
+    },
+    {
+      "stock_code": "603139",
+      "company": "康惠股份",
+      "announcement_date": "2026-05-12",
+      "announcement_time": 1778515200,
+      "title": "康惠股份关于控股子公司陕西友帮收到法院预重整决定书的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900030778&announcementId=1225291198&announcementTime=2026-05-12",
+      "type": "重整",
+      "industry": "医药生物-中药Ⅱ-中药Ⅲ",
+      "brief": "陕西康惠制药股份有限公司的主营业务是中成药的研发、生产、销售。"
+    },
+    {
+      "stock_code": "000609",
+      "company": "*ST中迪",
+      "announcement_date": "2026-05-12",
+      "announcement_time": 1778515200,
+      "title": "中迪投资关于参股企业成都和宸盈佳矿业合伙企业（有限合伙）股权将被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000609&announcementId=1225291702&announcementTime=2026-05-12",
+      "type": "拍卖",
+      "industry": "房地产-房地产开发-住宅开发",
+      "brief": "北京中迪投资股份有限公司的主营业务是投资及投资管理、房地产开发。"
+    },
+    {
+      "stock_code": "002742",
+      "company": "三圣股份",
+      "announcement_date": "2026-05-12",
+      "announcement_time": 1778515200,
+      "title": "关于股东被司法拍卖的股份完成过户暨被动减持的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900022970&announcementId=1225291004&announcementTime=2026-05-12",
+      "type": "拍卖",
+      "industry": "医药生物-化学制药-化学制剂",
+      "brief": "重庆三圣实业股份有限公司的主营业务是建材化工和医药制造业务。"
+    },
+    {
+      "stock_code": "600884",
+      "company": "杉杉股份",
+      "announcement_date": "2026-05-12",
+      "announcement_time": 1778515200,
+      "title": "杉杉股份关于间接控股股东被司法拍卖的股份完成过户的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600884&announcementId=1225290835&announcementTime=2026-05-12",
+      "type": "拍卖",
+      "industry": "电力设备-电池",
+      "brief": "宁波杉杉股份有限公司的主营业务是负极材料与偏光片两大业务。"
     }
   ]
 }
