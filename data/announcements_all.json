@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-05-13T00:01:19.605382",
-  "total": 21,
+  "updated_at": "2026-05-13T12:01:49.026471",
+  "total": 25,
   "records": [
+    {
+      "stock_code": "688033",
+      "company": "*ST天宜",
+      "announcement_date": "2026-05-13",
+      "announcement_time": 1778601600,
+      "title": "关于遴选确定预重整财务投资人及其他重整投资人的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900039155&announcementId=1225302064&announcementTime=2026-05-13",
+      "type": "重整",
+      "industry": "机械设备-轨交设备Ⅱ-轨交设备Ⅲ",
+      "brief": "北京天宜上佳高新材料股份有限公司的主营业务是高铁粉末冶金闸片业务、光伏新能源、汽车及航空航天等四大业务板块。"
+    },
+    {
+      "stock_code": "002360",
+      "company": "ST同德",
+      "announcement_date": "2026-05-13",
+      "announcement_time": 1778601600,
+      "title": "关于公司预重整期间债权申报的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900010767&announcementId=1225300979&announcementTime=2026-05-13",
+      "type": "重整",
+      "industry": "基础化工-化学制品-民爆制品",
+      "brief": "山西同德化工股份有限公司的主营业务是民用炸药的研发、生产、销售（流通），以及为客户提供爆破工程的整体解决方案等相关服务。"
+    },
+    {
+      "stock_code": "000793",
+      "company": "*ST华闻",
+      "announcement_date": "2026-05-13",
+      "announcement_time": 1778601600,
+      "title": "关于收到重整投资人全部重整投资款的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000793&announcementId=1225300313&announcementTime=2026-05-13",
+      "type": "重整",
+      "industry": "传媒-出版-大众出版",
+      "brief": "华闻传媒投资集团股份有限公司的主营业务是从事文旅业务、传媒业务等的经营。"
+    },
+    {
+      "stock_code": "603202",
+      "company": "天有为",
+      "announcement_date": "2026-05-13",
+      "announcement_time": 1778601600,
+      "title": "关于控股股东的一致行动人所持公司部分股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900059219&announcementId=1225300261&announcementTime=2026-05-13",
+      "type": "拍卖",
+      "industry": "汽车-汽车零部件-汽车电子电气系统",
+      "brief": "黑龙江天有为电子股份有限公司的主营业务是汽车仪表的研发设计、生产、销售和服务。"
+    },
     {
       "stock_code": "600500",
       "company": "中化国际",
