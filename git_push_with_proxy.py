@@ -11,9 +11,9 @@ import socket
 import sys
 import os
 
-# HTTP 代理端口（Windows Git 原生支持，优先）
-HTTP_PORTS = [7890, 7891, 7892, 8080]
-# SOCKS5 代理端口（Windows Git 不支持 socks5h://，仅作兜底用 socks5://）
+# HTTP 代理端口（Clash 默认 7890，Windows Git 原生支持）
+HTTP_PORTS = [7890, 7891, 7892]
+# SOCKS5 代理端口（Windows Git 用 socks5:// 而非 socks5h://）
 SOCKS_PORTS = [10808, 10809, 1080, 1087]
 
 # Gitee 认证信息（从环境变量读取，不在代码中暴露）
@@ -66,7 +66,7 @@ def run_git_push(repo_path, remote, branch='main', proxy_port=None, proxy_scheme
         if proxy_scheme == "http":
             proxy_url = f"http://127.0.0.1:{proxy_port}"
         else:
-            # Windows Git 不支持 socks5h://，用 socks5://
+            # Windows Git 不支持 socks5h://，用 socks5://（DNS 本地解析）
             proxy_url = f"socks5://127.0.0.1:{proxy_port}"
         print(f"  代理: {proxy_url}")
         # 临时设置代理（仅当前仓库）
@@ -144,8 +144,8 @@ def main():
         print("  无本地变更")
     print()
 
-    # 2. 推送到 Gitee（直连，不需要代理）
-    print("[2/4] 推送到 Gitee（国内直连）...")
+    # 2. 推送到 Gitee（直连）
+    print("[2/4] 推送到 Gitee...")
     ret_gitee = run_git_push(repo_path, 'gitee', 'main', proxy_port=None, proxy_scheme=None)
     if ret_gitee == 0:
         print("  ✅ Gitee 推送成功！")
@@ -153,23 +153,16 @@ def main():
         print(f"  ❌ Gitee 推送失败（退出码: {ret_gitee}）")
     print()
 
-    # 3. 检测代理并推送到 GitHub
-    print("[3/4] 检测代理端口（用于 GitHub）...")
-    proxy_port, proxy_scheme = find_active_proxy()
-
-    if proxy_port:
-        print(f"  ✅ 发现代理端口: 127.0.0.1:{proxy_port}（{proxy_scheme}）")
-        print()
-        print("[4/4] 推送到 GitHub（通过代理）...")
-        ret_github = run_git_push(repo_path, 'origin', 'main', proxy_port=proxy_port, proxy_scheme=proxy_scheme)
-        if ret_github == 0:
-            print("  ✅ GitHub 推送成功！")
-        else:
-            print(f"  ❌ GitHub 推送失败（退出码: {ret_github}）")
+    # 3. 推送到 GitHub（SSH 直连，无需代理）
+    print("[3/4] 推送到 GitHub（SSH 直连）...")
+    ret_github = run_git_push(repo_path, 'origin', 'main', proxy_port=None, proxy_scheme=None)
+    if ret_github == 0:
+        print("  ✅ GitHub 推送成功！")
     else:
-        print("  ⚠️  未检测到代理端口，跳过 GitHub 推送")
-        print("  （Gitee 已推送成功，GitHub 可在 VPN/代理开启后手动推送）")
+        print(f"  ❌ GitHub 推送失败（退出码: {ret_github}）")
+    print()
 
+    print("[4/4] 完成")
     print()
     print("=" * 60)
     print("✅ 推送流程完成！")
