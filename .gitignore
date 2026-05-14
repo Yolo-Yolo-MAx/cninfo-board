@@ -5,6 +5,9 @@ __pycache__/
 call.py
 mcp_config.json
 
+# WorkBuddy 本地数据（无关项目）
+.workbuddy/
+
 # 数据文件（可选：如需在线查看数据可取消注释）
 # data/
 
