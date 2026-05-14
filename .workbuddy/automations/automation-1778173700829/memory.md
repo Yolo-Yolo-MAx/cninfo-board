@@ -31,3 +31,11 @@
 - 飞书通知：成功（code=0）
 - Gitee推送：成功
 - GitHub推送：失败（代理端口10808可达但推送退出码1，连续5日同现，疑似代理稳定性问题）
+
+## 2026-05-15 00:00
+
+- 时段：18（12:00~18:00 槽，当日数据）
+- 结果：时段内无新公告（0条），全部31条/今日0条
+- 飞书通知：成功（code=0）
+- Gitee推送：成功
+- GitHub推送：失败（**根因确认：HTTP 401 Unauthorized**，非代理问题。GitHub凭据过期/丢失，全局credential.helper未配置。本地领先origin 3个commit。需用户重新配置Personal Access Token）
