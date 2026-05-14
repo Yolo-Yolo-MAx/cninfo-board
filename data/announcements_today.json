@@ -1,6 +1,73 @@
 {
   "date": "2026-05-14",
-  "updated_at": "2026-05-14T00:32:14.920592",
-  "total": 0,
-  "records": []
+  "updated_at": "2026-05-14T12:02:41.938382",
+  "total": 6,
+  "records": [
+    {
+      "stock_code": "600612",
+      "company": "老凤祥",
+      "announcement_date": "2026-05-14",
+      "announcement_time": 1778688000,
+      "title": "老凤祥股份有限公司关于下属子公司受领重整服务信托受益权份额暨下属子公司诉讼进展的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600612&announcementId=1225304738&announcementTime=2026-05-14",
+      "type": "重整",
+      "industry": "纺织服饰-饰品-钟表珠宝",
+      "brief": "老凤祥股份有限公司的主营业务是黄金珠宝首饰、工艺美术品、笔类文教用品的生产经营及销售。"
+    },
+    {
+      "stock_code": "002514",
+      "company": "*ST宝馨",
+      "announcement_date": "2026-05-14",
+      "announcement_time": 1778688000,
+      "title": "关于公司控股股东、实际控制人所持公司部分股份司法拍卖过户完成暨权益变动的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900016129&announcementId=1225305375&announcementTime=2026-05-14",
+      "type": "拍卖",
+      "industry": "机械设备-通用设备-金属制品",
+      "brief": "江苏宝馨科技股份有限公司的主营业务是智能制造业务、新能源业务。"
+    },
+    {
+      "stock_code": "000639",
+      "company": "ST西王",
+      "announcement_date": "2026-05-14",
+      "announcement_time": 1778688000,
+      "title": "关于控股股东所持股份将被第二次拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000639&announcementId=1225305287&announcementTime=2026-05-14",
+      "type": "拍卖",
+      "industry": "食品饮料-食品加工-保健品",
+      "brief": "健康食用油及运动营养和体重管理"
+    },
+    {
+      "stock_code": "600678",
+      "company": "ST金顶",
+      "announcement_date": "2026-05-14",
+      "announcement_time": 1778688000,
+      "title": "四川金顶（集团）股份有限公司关于大股东所持公司部分股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600678&announcementId=1225305227&announcementTime=2026-05-14",
+      "type": "拍卖",
+      "industry": "建筑材料-水泥",
+      "brief": "四川金顶(集团)股份有限公司的主营业务是非金属矿开采、加工及产品销售。"
+    },
+    {
+      "stock_code": "300698",
+      "company": "万马科技",
+      "announcement_date": "2026-05-14",
+      "announcement_time": 1778688000,
+      "title": "关于股东部分股份被司法拍卖进展的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gfbj0834864&announcementId=1225304295&announcementTime=2026-05-14",
+      "type": "拍卖",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "brief": "万马科技股份有限公司的主营业务是通信及工控设备类产品的研发、生产和销售。"
+    },
+    {
+      "stock_code": "002191",
+      "company": "劲嘉股份",
+      "announcement_date": "2026-05-14",
+      "announcement_time": 1778688000,
+      "title": "关于控股股东及其一致行动人所持部分股份被司法拍卖结果的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900003910&announcementId=1225303130&announcementTime=2026-05-14",
+      "type": "拍卖",
+      "industry": "轻工制造-包装印刷-纸包装",
+      "brief": "深圳劲嘉集团股份有限公司的主营业务是中高端消费品牌的精品纸包装，镭射纸/膜、电子材料等新材料产品及新型烟草制品。"
+    }
+  ]
 }
