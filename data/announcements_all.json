@@ -1,7 +1,62 @@
 {
-  "updated_at": "2026-05-15T00:00:43.393955",
-  "total": 31,
+  "updated_at": "2026-05-15T12:02:22.795491",
+  "total": 36,
   "records": [
+    {
+      "stock_code": "002620",
+      "company": "*ST瑞和",
+      "announcement_date": "2026-05-15",
+      "announcement_time": 1778774400,
+      "title": "关于本次预重整与重整投资人签订《重整投资协议》的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900021475&announcementId=1225307829&announcementTime=2026-05-15",
+      "type": "重整",
+      "industry": "建筑装饰-装修装饰Ⅱ",
+      "brief": "建筑装饰工程的设计与施工"
+    },
+    {
+      "stock_code": "603959",
+      "company": "ST百利",
+      "announcement_date": "2026-05-15",
+      "announcement_time": 1778774400,
+      "title": "关于原控股股东所持部分股份将被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900024644&announcementId=1225307906&announcementTime=2026-05-15",
+      "type": "拍卖",
+      "industry": "建筑装饰-专业工程-化学工程",
+      "brief": "湖南百利工程科技股份有限公司的主营业务是高端非标智能装备的研发设计、生产和销售。"
+    },
+    {
+      "stock_code": "603985",
+      "company": "恒润股份",
+      "announcement_date": "2026-05-15",
+      "announcement_time": 1778774400,
+      "title": "江阴市恒润重工股份有限公司关于5%以上股东部分股份将被司法拍卖的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900023733&announcementId=1225306790&announcementTime=2026-05-15",
+      "type": "拍卖",
+      "industry": "电力设备-风电设备-风电零部件",
+      "brief": "江阴市恒润重工股份有限公司的主营业务是法兰及锻件、风电轴承的生产、加工和销售以及算力业务。"
+    },
+    {
+      "stock_code": "000615",
+      "company": "*ST美谷",
+      "announcement_date": "2026-05-15",
+      "announcement_time": 1778774400,
+      "title": "关于拍卖处置资产的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000615&announcementId=1225306671&announcementTime=2026-05-15",
+      "type": "拍卖",
+      "industry": "美容护理-医疗美容-医美服务",
+      "brief": "化纤新材料业务和医疗美容业务。"
+    },
+    {
+      "stock_code": "603202",
+      "company": "天有为",
+      "announcement_date": "2026-05-15",
+      "announcement_time": 1778774400,
+      "title": "关于控股股东的一致行动人所持公司部分股份将被第二次司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900059219&announcementId=1225305815&announcementTime=2026-05-15",
+      "type": "拍卖",
+      "industry": "汽车-汽车零部件-汽车电子电气系统",
+      "brief": "黑龙江天有为电子股份有限公司的主营业务是汽车仪表的研发设计、生产、销售和服务。"
+    },
     {
       "stock_code": "600612",
       "company": "老凤祥",
