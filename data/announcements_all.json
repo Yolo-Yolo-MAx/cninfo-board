@@ -1,7 +1,84 @@
 {
-  "updated_at": "2026-05-16T00:00:54.004630",
-  "total": 36,
+  "updated_at": "2026-05-16T12:02:23.236647",
+  "total": 43,
   "records": [
+    {
+      "stock_code": "002360",
+      "company": "ST同德",
+      "announcement_date": "2026-05-16",
+      "announcement_time": 1778860800,
+      "title": "关于公开招募重整投资人的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900010767&announcementId=1225309042&announcementTime=2026-05-16",
+      "type": "重整",
+      "industry": "基础化工-化学制品-民爆制品",
+      "brief": "山西同德化工股份有限公司的主营业务是民用炸药的研发、生产、销售（流通），以及为客户提供爆破工程的整体解决方案等相关服务。"
+    },
+    {
+      "stock_code": "600370",
+      "company": "*ST三房",
+      "announcement_date": "2026-05-16",
+      "announcement_time": 1778860800,
+      "title": "江苏三房巷聚材股份有限公司关于控股股东收到法院拍卖告知书的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600370&announcementId=1225311509&announcementTime=2026-05-16",
+      "type": "拍卖",
+      "industry": "基础化工-化学纤维-涤纶",
+      "brief": "江苏三房巷聚材股份有限公司的主营业务是以瓶级聚酯切片、PTA的生产与销售为核心，以热电、PBT工程塑料的生产与销售等业务为补充。"
+    },
+    {
+      "stock_code": "603378",
+      "company": "*ST亚士",
+      "announcement_date": "2026-05-16",
+      "announcement_time": 1778860800,
+      "title": "亚士创能关于控股股东所持公司部分股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900030399&announcementId=1225308991&announcementTime=2026-05-16",
+      "type": "拍卖",
+      "industry": "建筑材料-装修建材-涂料",
+      "brief": "亚士创能科技(上海)股份有限公司的主营业务是功能型建筑涂料、建筑保温装饰一体化材料、建筑节能保温材料、防水材料、砂浆、家居新材料的研发、生产、销售及服务。"
+    },
+    {
+      "stock_code": "603378",
+      "company": "*ST亚士",
+      "announcement_date": "2026-05-16",
+      "announcement_time": 1778860800,
+      "title": "亚士创能关于控股股东所持公司部分股份被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900030399&announcementId=1225308987&announcementTime=2026-05-16",
+      "type": "拍卖",
+      "industry": "建筑材料-装修建材-涂料",
+      "brief": "亚士创能科技(上海)股份有限公司的主营业务是功能型建筑涂料、建筑保温装饰一体化材料、建筑节能保温材料、防水材料、砂浆、家居新材料的研发、生产、销售及服务。"
+    },
+    {
+      "stock_code": "603378",
+      "company": "*ST亚士",
+      "announcement_date": "2026-05-16",
+      "announcement_time": 1778860800,
+      "title": "亚士创能关于实际控制人部分股份将被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900030399&announcementId=1225308985&announcementTime=2026-05-16",
+      "type": "拍卖",
+      "industry": "建筑材料-装修建材-涂料",
+      "brief": "亚士创能科技(上海)股份有限公司的主营业务是功能型建筑涂料、建筑保温装饰一体化材料、建筑节能保温材料、防水材料、砂浆、家居新材料的研发、生产、销售及服务。"
+    },
+    {
+      "stock_code": "000639",
+      "company": "ST西王",
+      "announcement_date": "2026-05-16",
+      "announcement_time": 1778860800,
+      "title": "关于控股股东股份拍卖第二次流拍的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000639&announcementId=1225308588&announcementTime=2026-05-16",
+      "type": "拍卖",
+      "industry": "食品饮料-食品加工-保健品",
+      "brief": "西王食品股份有限公司的主营业务是食用植物油、运动营养品及体重管理相关的营养补给品的研发、生产和销售。"
+    },
+    {
+      "stock_code": "300698",
+      "company": "万马科技",
+      "announcement_date": "2026-05-16",
+      "announcement_time": 1778860800,
+      "title": "关于股东部分股份将被司法拍卖的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gfbj0834864&announcementId=1225308416&announcementTime=2026-05-16",
+      "type": "拍卖",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "brief": "万马科技股份有限公司的主营业务是通信及工控设备类产品的研发、生产和销售。"
+    },
     {
       "stock_code": "002620",
       "company": "*ST瑞和",
