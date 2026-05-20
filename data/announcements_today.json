@@ -1,7 +1,7 @@
 {
   "date": "2026-05-20",
-  "updated_at": "2026-05-20T12:01:34.750887",
-  "total": 6,
+  "updated_at": "2026-05-20T18:01:24.804727",
+  "total": 7,
   "records": [
     {
       "stock_code": "688033",
@@ -68,6 +68,17 @@
       "type": "拍卖",
       "industry": "轻工制造-文娱用品-娱乐用品",
       "brief": "广东群兴玩具股份有限公司的主营业务是酒类销售、智算业务、物业管理及物业租赁。"
+    },
+    {
+      "stock_code": "300027",
+      "company": "ST华谊",
+      "announcement_date": "2026-05-20",
+      "announcement_time": 1779267987,
+      "title": "关于控股股东所持部分公司股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900008488&announcementId=1225319038&announcementTime=2026-05-20",
+      "type": "拍卖",
+      "industry": "传媒-传媒-影视动漫制作",
+      "brief": "华谊兄弟传媒股份有限公司的主营业务是影视娱乐、品牌授权与实景娱乐板块、互联网娱乐。"
     }
   ]
 }
