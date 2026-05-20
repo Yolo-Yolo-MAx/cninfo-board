@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-20T11:19:27.475491",
-  "total": 49,
+  "updated_at": "2026-05-20T11:25:30.917260",
+  "total": 56,
   "records": [
     {
       "stock_code": "688033",
@@ -64,6 +64,83 @@
       "announcement_time": 1779206400,
       "title": "关于第一大股东部分股份被司法拍卖的进展公告",
       "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900019213&announcementId=1225315568&announcementTime=2026-05-20",
+      "type": "拍卖",
+      "industry": "轻工制造-文娱用品-娱乐用品",
+      "brief": "广东群兴玩具股份有限公司的主营业务是酒类销售、智算业务、物业管理及物业租赁。"
+    },
+    {
+      "stock_code": "300212",
+      "company": "*ST易录",
+      "announcement_date": "2026-05-19",
+      "announcement_time": 1779195130,
+      "title": "关于法院决定对公司启动预重整的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900018955&announcementId=1225318292&announcementTime=2026-05-19",
+      "type": "重整",
+      "industry": "计算机-IT服务Ⅱ-IT服务Ⅲ",
+      "brief": "北京易华录信息技术股份有限公司的主营业务是智能交通管理系统、公共安全系统、智慧城市系统的研发、生产和销售。"
+    },
+    {
+      "stock_code": "300212",
+      "company": "*ST易录",
+      "announcement_date": "2026-05-19",
+      "announcement_time": 1779184330,
+      "title": "中德证券有限责任公司关于北京易华录信息技术股份有限公司被债权人申请重整及预重整的受托管理事务临时报告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900018955&announcementId=1225316188&announcementTime=2026-05-19",
+      "type": "重整",
+      "industry": "计算机-IT服务Ⅱ-IT服务Ⅲ",
+      "brief": "北京易华录信息技术股份有限公司的主营业务是智能交通管理系统、公共安全系统、智慧城市系统的研发、生产和销售。"
+    },
+    {
+      "stock_code": "002072",
+      "company": "凯瑞德",
+      "announcement_date": "2026-05-19",
+      "announcement_time": 1779120000,
+      "title": "关于控股股东部分股份将被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900000881&announcementId=1225314650&announcementTime=2026-05-19",
+      "type": "拍卖",
+      "industry": "商贸零售-贸易Ⅱ-贸易Ⅲ",
+      "brief": "凯瑞德控股股份有限公司的主营业务是煤炭贸易业务。"
+    },
+    {
+      "stock_code": "600706",
+      "company": "曲江文旅",
+      "announcement_date": "2026-05-19",
+      "announcement_time": 1779120000,
+      "title": "西安曲江文化旅游股份有限公司关于控股股东所持部分股份拍卖进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600706&announcementId=1225314609&announcementTime=2026-05-19",
+      "type": "拍卖",
+      "industry": "社会服务-旅游及景区-人工景区",
+      "brief": "西安曲江文化旅游股份有限公司的主营业务是景区运营管理业务、历史文化主题酒店管理(含餐饮管理)业务、旅行社业务、演出演艺业务、文化旅游商品业务及其他新型旅游业务、房地产的开发和销售。"
+    },
+    {
+      "stock_code": "002647",
+      "company": "仁东控股",
+      "announcement_date": "2026-05-19",
+      "announcement_time": 1779120000,
+      "title": "关于低效资产拍卖的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900021885&announcementId=1225313001&announcementTime=2026-05-19",
+      "type": "拍卖",
+      "industry": "非银金融-多元金融-金融信息服务",
+      "brief": "仁东控股集团股份有限公司的主营业务是第三方支付服务。"
+    },
+    {
+      "stock_code": "600796",
+      "company": "钱江生化",
+      "announcement_date": "2026-05-19",
+      "announcement_time": 1779120000,
+      "title": "关于持股5%以上股东所持部分公司股份司法拍卖流拍的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600796&announcementId=1225312168&announcementTime=2026-05-19",
+      "type": "拍卖",
+      "industry": "环保-环境治理-水务及水治理",
+      "brief": "浙江钱江生物化学股份有限公司的主营业务是水务环保和生物制造两大板块。"
+    },
+    {
+      "stock_code": "002575",
+      "company": "群兴玩具",
+      "announcement_date": "2026-05-18",
+      "announcement_time": 1779033600,
+      "title": "关于第一大股东部分股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900019213&announcementId=1225311913&announcementTime=2026-05-18",
       "type": "拍卖",
       "industry": "轻工制造-文娱用品-娱乐用品",
       "brief": "广东群兴玩具股份有限公司的主营业务是酒类销售、智算业务、物业管理及物业租赁。"
