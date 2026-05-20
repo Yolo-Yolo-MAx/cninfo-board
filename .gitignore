@@ -14,3 +14,9 @@ mcp_config.json
 # 临时文件
 *.log
 .env
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
