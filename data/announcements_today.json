@@ -1,40 +1,6 @@
 {
-  "date": "2026-05-22",
-  "updated_at": "2026-05-22T18:01:07.053209",
-  "total": 3,
-  "records": [
-    {
-      "stock_code": "002575",
-      "company": "群兴玩具",
-      "announcement_date": "2026-05-22",
-      "announcement_time": 1779379200,
-      "title": "关于第一大股东部分股份被司法拍卖的进展公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900019213&announcementId=1225323347&announcementTime=2026-05-22",
-      "type": "拍卖",
-      "industry": "轻工制造-文娱用品",
-      "brief": "广东群兴玩具股份有限公司的主营业务是酒类销售、智算业务、物业管理及物业租赁。"
-    },
-    {
-      "stock_code": "002575",
-      "company": "群兴玩具",
-      "announcement_date": "2026-05-22",
-      "announcement_time": 1779379200,
-      "title": "关于第一大股东部分股份将被第二次司法拍卖的提示性公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900019213&announcementId=1225323346&announcementTime=2026-05-22",
-      "type": "拍卖",
-      "industry": "轻工制造-文娱用品",
-      "brief": "广东群兴玩具股份有限公司的主营业务是酒类销售、智算业务、物业管理及物业租赁。"
-    },
-    {
-      "stock_code": "000615",
-      "company": "*ST美谷",
-      "announcement_date": "2026-05-22",
-      "announcement_time": 1779379200,
-      "title": "关于公司原持股5%以上股东被司法拍卖的股份完成过户的公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000615&announcementId=1225322393&announcementTime=2026-05-22",
-      "type": "拍卖",
-      "industry": "美容护理-医疗美容-医美服务",
-      "brief": "九州美谷科技股份有限公司的主营业务是生物基纤维业务和医疗美容服务业务。"
-    }
-  ]
+  "date": "2026-05-23",
+  "updated_at": "2026-05-23T00:00:57.831458",
+  "total": 0,
+  "records": []
 }
