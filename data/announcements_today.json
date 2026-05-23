@@ -1,62 +1,6 @@
 {
-  "date": "2026-05-23",
-  "updated_at": "2026-05-23T18:01:01.444166",
-  "total": 5,
-  "records": [
-    {
-      "stock_code": "600735",
-      "company": "ST新华锦",
-      "announcement_date": "2026-05-23",
-      "announcement_time": 1779465600,
-      "title": "新华锦关于控股股东及间接控股股东等二十二家公司实质合并重整意向投资人预招募的公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600735&announcementId=1225327782&announcementTime=2026-05-23",
-      "type": "重整",
-      "industry": "纺织服饰-饰品-其他饰品",
-      "brief": "山东新华锦国际股份有限公司的主营业务是发制品、纺织服装的出口和跨境电商进口，出口业务和进口业务双向循环和石墨矿开展石墨深加工及石墨应用的新材料业务。"
-    },
-    {
-      "stock_code": "002131",
-      "company": "利欧股份",
-      "announcement_date": "2026-05-23",
-      "announcement_time": 1779465600,
-      "title": "关于迹象信息技术（上海）有限公司所持公司股份将被司法拍卖暨业绩补偿的进展公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900002724&announcementId=1225326780&announcementTime=2026-05-23",
-      "type": "拍卖",
-      "industry": "机械设备-通用设备-金属制品",
-      "brief": "利欧集团股份有限公司的主营业务是机械制造业务和数字营销业务。"
-    },
-    {
-      "stock_code": "000615",
-      "company": "*ST美谷",
-      "announcement_date": "2026-05-23",
-      "announcement_time": 1779465600,
-      "title": "关于拍卖处置资产的进展公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000615&announcementId=1225326693&announcementTime=2026-05-23",
-      "type": "拍卖",
-      "industry": "美容护理-医疗美容-医美服务",
-      "brief": "九州美谷科技股份有限公司的主营业务是生物基纤维业务和医疗美容服务业务。"
-    },
-    {
-      "stock_code": "600703",
-      "company": "三安光电",
-      "announcement_date": "2026-05-23",
-      "announcement_time": 1779465600,
-      "title": "三安光电股份有限公司关于间接控股股东被法院拍卖股份部分完成过户暨权益变动触及1%刻度的提示公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600703&announcementId=1225325742&announcementTime=2026-05-23",
-      "type": "拍卖",
-      "industry": "电子-光学光电子-LED",
-      "brief": "三安光电股份有限公司的主营业务是化合物半导体材料与器件的研发、生产和销售。"
-    },
-    {
-      "stock_code": "600666",
-      "company": "奥瑞德",
-      "announcement_date": "2026-05-23",
-      "announcement_time": 1779465600,
-      "title": "奥瑞德关于持股5%以上股东股份被司法拍卖的进展公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600666&announcementId=1225325482&announcementTime=2026-05-23",
-      "type": "拍卖",
-      "industry": "电子-光学光电子-面板",
-      "brief": "奥瑞德光电股份有限公司的主营业务是算力综合服务业务和蓝宝石制品的生产和销售。"
-    }
-  ]
+  "date": "2026-05-24",
+  "updated_at": "2026-05-24T04:29:32.106915",
+  "total": 0,
+  "records": []
 }
