@@ -1,6 +1,18 @@
 {
   "date": "2026-05-25",
-  "updated_at": "2026-05-25T12:01:13.747475",
-  "total": 0,
-  "records": []
+  "updated_at": "2026-05-25T18:01:08.217397",
+  "total": 1,
+  "records": [
+    {
+      "stock_code": "300212",
+      "company": "*ST易录",
+      "announcement_date": "2026-05-25",
+      "announcement_time": 1779701170,
+      "title": "中德证券有限责任公司关于法院决定对北京易华录信息技术股份有限公司启动预重整的受托管理事务临时报告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900018955&announcementId=1225328632&announcementTime=2026-05-25",
+      "type": "重整",
+      "industry": "计算机-IT服务Ⅱ-IT服务Ⅲ",
+      "brief": "北京易华录信息技术股份有限公司的主营业务是智能交通管理系统、公共安全系统、智慧城市系统的研发、生产和销售。"
+    }
+  ]
 }
