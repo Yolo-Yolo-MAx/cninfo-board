@@ -1,7 +1,73 @@
 {
-  "updated_at": "2026-05-26T00:00:44.431972",
-  "total": 66,
+  "updated_at": "2026-05-27T23:53:33.811307",
+  "total": 72,
   "records": [
+    {
+      "stock_code": "301055",
+      "company": "张小泉",
+      "announcement_date": "2026-05-27",
+      "announcement_time": 1779874586,
+      "title": "关于富春控股及其关联公司合并重整事项的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900041902&announcementId=1225333148&announcementTime=2026-05-27",
+      "type": "重整",
+      "industry": "轻工制造-家居用品-其他家居用品",
+      "brief": "张小泉股份有限公司的主营业务是现代生活五金用品的设计、研发、生产及销售。"
+    },
+    {
+      "stock_code": "603377",
+      "company": "ST东时",
+      "announcement_date": "2026-05-27",
+      "announcement_time": 1779811200,
+      "title": "关于召开预重整第一次债权人会议的通知",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900023616&announcementId=1225330847&announcementTime=2026-05-27",
+      "type": "重整",
+      "industry": "社会服务-教育-培训教育",
+      "brief": "东方时尚驾驶学校股份有限公司的主营业务是机动车驾驶人培训和民用航空器驾驶员培训。"
+    },
+    {
+      "stock_code": "603377",
+      "company": "ST东时",
+      "announcement_date": "2026-05-27",
+      "announcement_time": 1779811200,
+      "title": "关于预重整进展的重要提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900023616&announcementId=1225330846&announcementTime=2026-05-27",
+      "type": "重整",
+      "industry": "社会服务-教育-培训教育",
+      "brief": "东方时尚驾驶学校股份有限公司的主营业务是机动车驾驶人培训和民用航空器驾驶员培训。"
+    },
+    {
+      "stock_code": "002514",
+      "company": "*ST宝馨",
+      "announcement_date": "2026-05-27",
+      "announcement_time": 1779811200,
+      "title": "关于公司控股股东所持公司部分股份司法拍卖过户完成暨权益变动的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900016129&announcementId=1225332121&announcementTime=2026-05-27",
+      "type": "拍卖",
+      "industry": "机械设备-通用设备-金属制品",
+      "brief": "江苏宝馨科技股份有限公司的主营业务是智能制造业务、新能源业务。"
+    },
+    {
+      "stock_code": "600370",
+      "company": "*ST三房",
+      "announcement_date": "2026-05-27",
+      "announcement_time": 1779811200,
+      "title": "江苏三房巷聚材股份有限公司关于控股股东收到法院拍卖告知书的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600370&announcementId=1225330310&announcementTime=2026-05-27",
+      "type": "拍卖",
+      "industry": "基础化工-化学纤维-涤纶",
+      "brief": "江苏三房巷聚材股份有限公司的主营业务是以瓶级聚酯切片、PTA的生产与销售为核心，以热电、PBT工程塑料的生产与销售等业务为补充。"
+    },
+    {
+      "stock_code": "002191",
+      "company": "劲嘉股份",
+      "announcement_date": "2026-05-27",
+      "announcement_time": 1779811200,
+      "title": "关于控股股东所持部分股份被司法拍卖结果的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900003910&announcementId=1225330190&announcementTime=2026-05-27",
+      "type": "拍卖",
+      "industry": "轻工制造-包装印刷-纸包装",
+      "brief": "深圳劲嘉集团股份有限公司的主营业务是中高端消费品牌的精品纸包装，镭射纸/膜、电子材料等新材料产品及新型烟草制品。"
+    },
     {
       "stock_code": "300212",
       "company": "*ST易录",
