@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-06-01T19:02:21.770808",
-  "total": 80,
+  "updated_at": "2026-06-01T19:06:15.769143",
+  "total": 81,
   "records": [
+    {
+      "stock_code": "600537",
+      "company": "*ST亿晶",
+      "announcement_date": "2026-06-01",
+      "announcement_time": 1780243200,
+      "title": "亿晶光电科技股份有限公司预重整方案之出资人权益调整方案",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600537&announcementId=1225340878&announcementTime=2026-06-01",
+      "type": "重整",
+      "industry": "电力设备-光伏设备-光伏电池组件",
+      "brief": "亿晶光电科技股份有限公司的主营业务是高效晶体硅太阳能电池、组件的研发、生产和销售，同时开展光伏电站开发、建设和运营业务。"
+    },
     {
       "stock_code": "300237",
       "company": "ST美晨",
