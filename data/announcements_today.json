@@ -1,6 +1,73 @@
 {
   "date": "2026-06-03",
-  "updated_at": "2026-06-03T00:02:53.641794",
-  "total": 0,
-  "records": []
+  "updated_at": "2026-06-03T12:06:25.716486",
+  "total": 6,
+  "records": [
+    {
+      "stock_code": "002570",
+      "company": "贝因美",
+      "announcement_date": "2026-06-03",
+      "announcement_time": 1780416000,
+      "title": "关于控股股东重整计划获得法院裁定批准暨实际控制人拟发生变更的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900019035&announcementId=1225347677&announcementTime=2026-06-03",
+      "type": "重整",
+      "industry": "食品饮料-饮料乳品-乳品",
+      "brief": "贝因美股份有限公司的主营业务是婴幼儿配方奶粉、营养米粉和其他婴幼儿辅食、营养品的研发、生产和销售。"
+    },
+    {
+      "stock_code": "002528",
+      "company": "*ST英飞",
+      "announcement_date": "2026-06-03",
+      "announcement_time": 1780416000,
+      "title": "关于公司及全资子公司拟向法院申请预重整及重整的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900016568&announcementId=1225347074&announcementTime=2026-06-03",
+      "type": "重整",
+      "industry": "计算机-计算机设备-安防设备",
+      "brief": "深圳英飞拓科技股份有限公司的主营业务是人物互联为核心特色战略的新型智慧城市建设与运营服务。"
+    },
+    {
+      "stock_code": "002528",
+      "company": "*ST英飞",
+      "announcement_date": "2026-06-03",
+      "announcement_time": 1780416000,
+      "title": "关于公司及全资子公司申请预重整及重整的专项自查报告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900016568&announcementId=1225347073&announcementTime=2026-06-03",
+      "type": "重整",
+      "industry": "计算机-计算机设备-安防设备",
+      "brief": "深圳英飞拓科技股份有限公司的主营业务是人物互联为核心特色战略的新型智慧城市建设与运营服务。"
+    },
+    {
+      "stock_code": "002191",
+      "company": "劲嘉股份",
+      "announcement_date": "2026-06-03",
+      "announcement_time": 1780416000,
+      "title": "关于控股股东部分股份司法拍卖过户完成暨权益变动触及5%整数倍的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900003910&announcementId=1225346653&announcementTime=2026-06-03",
+      "type": "拍卖",
+      "industry": "轻工制造-包装印刷-纸包装",
+      "brief": "深圳劲嘉集团股份有限公司的主营业务是中高端消费品牌的精品纸包装，镭射纸/膜、电子材料等新材料产品及新型烟草制品。"
+    },
+    {
+      "stock_code": "600703",
+      "company": "三安光电",
+      "announcement_date": "2026-06-03",
+      "announcement_time": 1780416000,
+      "title": "三安光电股份有限公司关于间接控股股东被拍卖股份过户完成的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600703&announcementId=1225345737&announcementTime=2026-06-03",
+      "type": "拍卖",
+      "industry": "电子-光学光电子-LED",
+      "brief": "三安光电股份有限公司的主营业务是化合物半导体材料与器件的研发、生产和销售。"
+    },
+    {
+      "stock_code": "000609",
+      "company": "*ST中迪",
+      "announcement_date": "2026-06-03",
+      "announcement_time": 1780416000,
+      "title": "中迪投资关于参股企业成都和宸盈佳矿业合伙企业（有限合伙）股权将被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000609&announcementId=1225345404&announcementTime=2026-06-03",
+      "type": "拍卖",
+      "industry": "房地产-房地产开发-住宅开发",
+      "brief": "北京中迪投资股份有限公司的主营业务是投资及投资管理、房地产开发。"
+    }
+  ]
 }
