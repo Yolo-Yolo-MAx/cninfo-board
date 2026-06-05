@@ -1,6 +1,51 @@
 {
-  "date": "2026-06-04",
-  "updated_at": "2026-06-04T18:01:34.277985",
-  "total": 0,
-  "records": []
+  "date": "2026-06-05",
+  "updated_at": "2026-06-05T12:00:50.166410",
+  "total": 4,
+  "records": [
+    {
+      "stock_code": "600500",
+      "company": "中化国际",
+      "announcement_date": "2026-06-05",
+      "announcement_time": 1780588800,
+      "title": "中化国际关于控股子公司破产重整事项的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600500&announcementId=1225350761&announcementTime=2026-06-05",
+      "type": "重整",
+      "industry": "基础化工-化学制品-其他化学制品",
+      "brief": "中化国际(控股)股份有限公司的主营业务是化工原料、精细化工、塑料等的进出口及内销贸易，以及仓储运输和货运代理业务，橡胶助剂等的制造、加工及销售等。"
+    },
+    {
+      "stock_code": "000820",
+      "company": "*ST节能",
+      "announcement_date": "2026-06-05",
+      "announcement_time": 1780588800,
+      "title": "关于公司5%以上股东部分股份将被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000820&announcementId=1225352478&announcementTime=2026-06-05",
+      "type": "拍卖",
+      "industry": "环保-环保设备Ⅱ-环保设备Ⅲ",
+      "brief": "神雾节能股份有限公司的主营业务是钢铁、冶金等行业的工程技术与设计服务工作。"
+    },
+    {
+      "stock_code": "688287",
+      "company": "退市观典",
+      "announcement_date": "2026-06-05",
+      "announcement_time": 1780588800,
+      "title": "关于实际控制人所持公司部分股票司法拍卖流拍的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gfbj0832317&announcementId=1225352023&announcementTime=2026-06-05",
+      "type": "拍卖",
+      "industry": "国防军工-航空装备Ⅱ-航空装备Ⅲ",
+      "brief": "观典防务技术股份有限公司的主营业务是无人机飞行服务与数据处理，无人机系统及智能防务装备销售。"
+    },
+    {
+      "stock_code": "000826",
+      "company": "*ST启环",
+      "announcement_date": "2026-06-05",
+      "announcement_time": 1780588800,
+      "title": "关于持股5%以上股东部分股份将被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000826&announcementId=1225351847&announcementTime=2026-06-05",
+      "type": "拍卖",
+      "industry": "环保-环境治理-综合环境治理",
+      "brief": "启迪环境科技发展股份有限公司的主营业务是数字环卫业务、水务生态业务和固废处置业务。"
+    }
+  ]
 }
