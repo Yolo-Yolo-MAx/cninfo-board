@@ -1,7 +1,73 @@
 {
-  "updated_at": "2026-06-06T00:00:54.849265",
-  "total": 106,
+  "updated_at": "2026-06-06T12:02:10.010572",
+  "total": 112,
   "records": [
+    {
+      "stock_code": "600416",
+      "company": "湘电股份",
+      "announcement_date": "2026-06-06",
+      "announcement_time": 1780675200,
+      "title": "湘潭电机股份有限公司关于公司债务人被受理破产重整的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600416&announcementId=1225355971&announcementTime=2026-06-06",
+      "type": "重整",
+      "industry": "电力设备-电机Ⅱ-电机Ⅲ",
+      "brief": "湘潭电机股份有限公司的主营业务是发电机、交直流电动机、特种电机、船用推进系统、电气控制设备、风力发电机的设计、生产和销售。"
+    },
+    {
+      "stock_code": "002650",
+      "company": "ST加加",
+      "announcement_date": "2026-06-06",
+      "announcement_time": 1780675200,
+      "title": "关于公司原控股股东破产重整进展的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900021914&announcementId=1225354435&announcementTime=2026-06-06",
+      "type": "重整",
+      "industry": "食品饮料-调味发酵品Ⅱ-调味发酵品Ⅲ",
+      "brief": "加加食品集团股份有限公司的主营业务是酱油、植物油、食醋、鸡精、蚝油、料酒、味精等的生产及销售。"
+    },
+    {
+      "stock_code": "300698",
+      "company": "万马科技",
+      "announcement_date": "2026-06-06",
+      "announcement_time": 1780675200,
+      "title": "关于股东部分股份司法拍卖完成过户登记、解除质押、解除司法再冻结及司法冻结的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gfbj0834864&announcementId=1225355917&announcementTime=2026-06-06",
+      "type": "拍卖",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "brief": "万马科技股份有限公司的主营业务是通信及工控设备类产品的研发、生产和销售。"
+    },
+    {
+      "stock_code": "002731",
+      "company": "ST萃华",
+      "announcement_date": "2026-06-06",
+      "announcement_time": 1780675200,
+      "title": "关于持股5%以上股东一致行动人所持部分股份被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900022974&announcementId=1225355805&announcementTime=2026-06-06",
+      "type": "拍卖",
+      "industry": "纺织服饰-饰品-钟表珠宝",
+      "brief": "沈阳萃华金银珠宝股份有限公司的主营业务是珠宝饰品设计、加工、批发和零售和锂盐产品的生产、销售和加工。"
+    },
+    {
+      "stock_code": "300961",
+      "company": "深水海纳",
+      "announcement_date": "2026-06-06",
+      "announcement_time": 1780675200,
+      "title": "关于控股股东、实际控制人所持公司部分股份司法拍卖过户完成、股份变动触及1%整数倍暨股份质押与冻结变动情况的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=fzqy1027857&announcementId=1225355633&announcementTime=2026-06-06",
+      "type": "拍卖",
+      "industry": "环保-环境治理-水务及水治理",
+      "brief": "深水海纳水务集团股份有限公司的主营业务是聚焦工业污水处理、优质供水领域，整合智能装备、新材料、水处理药剂等环保水务产业链业务，搭建智慧水务平台，为客户提供集“研发、设计、投资、建设、运营”于一体的系统化解决方案。"
+    },
+    {
+      "stock_code": "002191",
+      "company": "劲嘉股份",
+      "announcement_date": "2026-06-06",
+      "announcement_time": 1780675200,
+      "title": "关于控股股东部分股份司法拍卖过户完成的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900003910&announcementId=1225353598&announcementTime=2026-06-06",
+      "type": "拍卖",
+      "industry": "轻工制造-包装印刷-纸包装",
+      "brief": "深圳劲嘉集团股份有限公司的主营业务是中高端消费品牌的精品纸包装，镭射纸/膜、电子材料等新材料产品及新型烟草制品。"
+    },
     {
       "stock_code": "600500",
       "company": "中化国际",
