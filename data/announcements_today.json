@@ -1,6 +1,18 @@
 {
-  "date": "2026-06-07",
-  "updated_at": "2026-06-07T12:04:43.376360",
-  "total": 0,
-  "records": []
+  "date": "2026-06-08",
+  "updated_at": "2026-06-08T18:40:41.921753",
+  "total": 1,
+  "records": [
+    {
+      "stock_code": "002072",
+      "company": "凯瑞德",
+      "announcement_date": "2026-06-08",
+      "announcement_time": 1780848000,
+      "title": "关于控股股东部分股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900000881&announcementId=1225355215&announcementTime=2026-06-08",
+      "type": "拍卖",
+      "industry": "商贸零售-贸易Ⅱ-贸易Ⅲ",
+      "brief": "凯瑞德控股股份有限公司的主营业务是煤炭贸易业务。"
+    }
+  ]
 }
