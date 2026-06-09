@@ -1,7 +1,7 @@
 {
   "date": "2026-06-09",
-  "updated_at": "2026-06-09T11:59:52.219281",
-  "total": 3,
+  "updated_at": "2026-06-09T19:54:55.868331",
+  "total": 4,
   "records": [
     {
       "stock_code": "603377",
@@ -35,6 +35,17 @@
       "type": "拍卖",
       "industry": "美容护理-医疗美容-医美服务",
       "brief": "九州美谷科技股份有限公司的主营业务是生物基纤维业务和医疗美容服务业务。"
+    },
+    {
+      "stock_code": "300027",
+      "company": "ST华谊",
+      "announcement_date": "2026-06-09",
+      "announcement_time": 1780993931,
+      "title": "关于控股股东所持部分公司股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900008488&announcementId=1225359620&announcementTime=2026-06-09",
+      "type": "拍卖",
+      "industry": "传媒-影视院线-影视动漫制作",
+      "brief": "华谊兄弟传媒股份有限公司的主营业务是影视娱乐、品牌授权与实景娱乐板块、互联网娱乐。"
     }
   ]
 }

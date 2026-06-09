@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-06-09T11:59:52.216265",
-  "total": 116,
+  "updated_at": "2026-06-09T19:54:55.865012",
+  "total": 117,
   "records": [
+    {
+      "stock_code": "300027",
+      "company": "ST华谊",
+      "announcement_date": "2026-06-09",
+      "announcement_time": 1780993931,
+      "title": "关于控股股东所持部分公司股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900008488&announcementId=1225359620&announcementTime=2026-06-09",
+      "type": "拍卖",
+      "industry": "传媒-影视院线-影视动漫制作",
+      "brief": "华谊兄弟传媒股份有限公司的主营业务是影视娱乐、品牌授权与实景娱乐板块、互联网娱乐。"
+    },
     {
       "stock_code": "603377",
       "company": "ST东时",
