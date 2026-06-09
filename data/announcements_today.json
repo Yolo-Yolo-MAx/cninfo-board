@@ -1,51 +1,6 @@
 {
-  "date": "2026-06-09",
-  "updated_at": "2026-06-09T19:54:55.868331",
-  "total": 4,
-  "records": [
-    {
-      "stock_code": "603377",
-      "company": "ST东时",
-      "announcement_date": "2026-06-09",
-      "announcement_time": 1780934400,
-      "title": "关于被债权人申请重整及预重整的进展公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900023616&announcementId=1225357483&announcementTime=2026-06-09",
-      "type": "重整",
-      "industry": "社会服务-教育-培训教育",
-      "brief": "东方时尚驾驶学校股份有限公司的主营业务是机动车驾驶人培训和民用航空器驾驶员培训。"
-    },
-    {
-      "stock_code": "002131",
-      "company": "利欧股份",
-      "announcement_date": "2026-06-09",
-      "announcement_time": 1780934400,
-      "title": "关于迹象信息技术（上海）有限公司所持公司股份被司法拍卖的进展公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900002724&announcementId=1225357366&announcementTime=2026-06-09",
-      "type": "拍卖",
-      "industry": "机械设备-通用设备-金属制品",
-      "brief": "利欧集团股份有限公司的主营业务是机械制造业务和数字营销业务。"
-    },
-    {
-      "stock_code": "000615",
-      "company": "*ST美谷",
-      "announcement_date": "2026-06-09",
-      "announcement_time": 1780934400,
-      "title": "关于拍卖处置资产的进展公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000615&announcementId=1225356976&announcementTime=2026-06-09",
-      "type": "拍卖",
-      "industry": "美容护理-医疗美容-医美服务",
-      "brief": "九州美谷科技股份有限公司的主营业务是生物基纤维业务和医疗美容服务业务。"
-    },
-    {
-      "stock_code": "300027",
-      "company": "ST华谊",
-      "announcement_date": "2026-06-09",
-      "announcement_time": 1780993931,
-      "title": "关于控股股东所持部分公司股份被司法拍卖的进展公告",
-      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900008488&announcementId=1225359620&announcementTime=2026-06-09",
-      "type": "拍卖",
-      "industry": "传媒-影视院线-影视动漫制作",
-      "brief": "华谊兄弟传媒股份有限公司的主营业务是影视娱乐、品牌授权与实景娱乐板块、互联网娱乐。"
-    }
-  ]
+  "date": "2026-06-10",
+  "updated_at": "2026-06-10T00:02:52.392903",
+  "total": 0,
+  "records": []
 }
