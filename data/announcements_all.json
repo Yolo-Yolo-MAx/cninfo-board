@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-06-10T00:02:52.391434",
-  "total": 117,
+  "updated_at": "2026-06-10T12:01:37.159977",
+  "total": 119,
   "records": [
+    {
+      "stock_code": "000793",
+      "company": "*ST华闻",
+      "announcement_date": "2026-06-10",
+      "announcement_time": 1781020800,
+      "title": "关于重整计划资本公积金转增股本除权事项的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000793&announcementId=1225361407&announcementTime=2026-06-10",
+      "type": "重整",
+      "industry": "传媒-出版-大众出版",
+      "brief": "华闻传媒投资集团股份有限公司的主营业务是从事文旅业务、传媒业务等的经营。"
+    },
+    {
+      "stock_code": "000536",
+      "company": "华映科技",
+      "announcement_date": "2026-06-10",
+      "announcement_time": 1781020800,
+      "title": "关于持股5%以上股东部分股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000536&announcementId=1225361062&announcementTime=2026-06-10",
+      "type": "拍卖",
+      "industry": "电子-光学光电子-面板",
+      "brief": "华映科技(集团)股份有限公司的主营业务是显示面板、显示模组的研发、生产及销售。"
+    },
     {
       "stock_code": "300027",
       "company": "ST华谊",
