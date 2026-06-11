@@ -1,6 +1,73 @@
 {
   "date": "2026-06-11",
-  "updated_at": "2026-06-11T00:00:43.555784",
-  "total": 0,
-  "records": []
+  "updated_at": "2026-06-11T12:00:31.270805",
+  "total": 6,
+  "records": [
+    {
+      "stock_code": "600340",
+      "company": "*ST华幸",
+      "announcement_date": "2026-06-11",
+      "announcement_time": 1781107200,
+      "title": "华夏幸福基业股份有限公司关于公司被债权人申请预重整及重整的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600340&announcementId=1225363266&announcementTime=2026-06-11",
+      "type": "重整",
+      "industry": "房地产-房地产开发-产业地产",
+      "brief": "华夏幸福基业股份有限公司的主营业务是开发业务、运营业务、服务业务、园区衍生业务。"
+    },
+    {
+      "stock_code": "600537",
+      "company": "*ST亿晶",
+      "announcement_date": "2026-06-11",
+      "announcement_time": 1781107200,
+      "title": "亿晶光电科技股份有限公司关于与重整投资人签署预重整投资协议的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600537&announcementId=1225362401&announcementTime=2026-06-11",
+      "type": "重整",
+      "industry": "电力设备-光伏设备-光伏电池组件",
+      "brief": "亿晶光电科技股份有限公司的主营业务是高效晶体硅太阳能电池、组件的研发、生产和销售，同时开展光伏电站开发、建设和运营业务。"
+    },
+    {
+      "stock_code": "600107",
+      "company": "*ST尔雅",
+      "announcement_date": "2026-06-11",
+      "announcement_time": 1781107200,
+      "title": "关于控股股东所持公司部分股份将被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600107&announcementId=1225363250&announcementTime=2026-06-11",
+      "type": "拍卖",
+      "industry": "纺织服饰-服装家纺-非运动服装",
+      "brief": "湖北美尔雅股份有限公司的主营业务是服装服饰类产品的研发、设计、生产和销售，药品零售和医疗服务等。"
+    },
+    {
+      "stock_code": "002726",
+      "company": "ST龙大",
+      "announcement_date": "2026-06-11",
+      "announcement_time": 1781107200,
+      "title": "关于控股股东部分股份将被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900023003&announcementId=1225362890&announcementTime=2026-06-11",
+      "type": "拍卖",
+      "industry": "食品饮料-食品加工-肉制品",
+      "brief": "山东龙大美食股份有限公司的主营业务是屠宰、肉类加工业及进口贸易。"
+    },
+    {
+      "stock_code": "600370",
+      "company": "*ST三房",
+      "announcement_date": "2026-06-11",
+      "announcement_time": 1781107200,
+      "title": "江苏三房巷聚材股份有限公司关于控股股东所持公司部分股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600370&announcementId=1225362404&announcementTime=2026-06-11",
+      "type": "拍卖",
+      "industry": "基础化工-化学纤维-涤纶",
+      "brief": "江苏三房巷聚材股份有限公司的主营业务是以瓶级聚酯切片、PTA的生产与销售为核心，以热电、PBT工程塑料的生产与销售等业务为补充。"
+    },
+    {
+      "stock_code": "002575",
+      "company": "群兴玩具",
+      "announcement_date": "2026-06-11",
+      "announcement_time": 1781107200,
+      "title": "关于第一大股东部分股份被第二次司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900019213&announcementId=1225361910&announcementTime=2026-06-11",
+      "type": "拍卖",
+      "industry": "轻工制造-文娱用品-娱乐用品",
+      "brief": "广东群兴玩具股份有限公司的主营业务是酒类销售、智算业务、物业管理及物业租赁。"
+    }
+  ]
 }
