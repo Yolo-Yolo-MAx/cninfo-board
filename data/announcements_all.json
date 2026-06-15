@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-06-15T00:06:02.662375",
-  "total": 137,
+  "updated_at": "2026-06-15T12:00:41.191488",
+  "total": 138,
   "records": [
+    {
+      "stock_code": "002072",
+      "company": "凯瑞德",
+      "announcement_date": "2026-06-15",
+      "announcement_time": 1781452800,
+      "title": "关于控股股东部分股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900000881&announcementId=1225367945&announcementTime=2026-06-15",
+      "type": "拍卖",
+      "industry": "商贸零售-贸易Ⅱ-贸易Ⅲ",
+      "brief": "凯瑞德控股股份有限公司的主营业务是煤炭贸易业务。"
+    },
     {
       "stock_code": "600703",
       "company": "三安光电",
