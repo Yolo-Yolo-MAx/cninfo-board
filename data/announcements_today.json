@@ -1,6 +1,40 @@
 {
-  "date": "2026-06-18",
-  "updated_at": "2026-06-18T23:56:51.259808",
-  "total": 0,
-  "records": []
+  "date": "2026-06-19",
+  "updated_at": "2026-06-19T11:59:42.787364",
+  "total": 3,
+  "records": [
+    {
+      "stock_code": "600884",
+      "company": "杉杉股份",
+      "announcement_date": "2026-06-19",
+      "announcement_time": 1781798400,
+      "title": "杉杉股份关于控股股东重整计划执行暨股东权益变动进展的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssh0600884&announcementId=1225379539&announcementTime=2026-06-19",
+      "type": "重整",
+      "industry": "电力设备-电池",
+      "brief": "宁波杉杉股份有限公司的主营业务是负极材料与偏光片两大业务。"
+    },
+    {
+      "stock_code": "688066",
+      "company": "*ST航图",
+      "announcement_date": "2026-06-19",
+      "announcement_time": 1781798400,
+      "title": "关于实际控制人及一致行动人所持公司部分股份被司法拍卖的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=fzqy1026111&announcementId=1225377731&announcementTime=2026-06-19",
+      "type": "拍卖",
+      "industry": "计算机-IT服务Ⅱ-IT服务Ⅲ",
+      "brief": "航天宏图信息技术股份有限公司的主营业务是卫星运营、行业应用与时空数据要素采集。"
+    },
+    {
+      "stock_code": "300698",
+      "company": "万马科技",
+      "announcement_date": "2026-06-19",
+      "announcement_time": 1781798400,
+      "title": "关于股东部分股份被第二次司法拍卖的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gfbj0834864&announcementId=1225377665&announcementTime=2026-06-19",
+      "type": "拍卖",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "brief": "万马科技股份有限公司的主营业务是通信及工控设备类产品的研发、生产和销售。"
+    }
+  ]
 }
