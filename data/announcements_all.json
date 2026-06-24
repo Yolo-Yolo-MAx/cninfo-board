@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-06-24T00:08:33.017658",
-  "total": 142,
+  "updated_at": "2026-06-24T20:47:11.629699",
+  "total": 146,
   "records": [
+    {
+      "stock_code": "000826",
+      "company": "*ST启环",
+      "announcement_date": "2026-06-24",
+      "announcement_time": 1782230400,
+      "title": "关于公司预重整事项进展暨收到预重整延期决定书的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000826&announcementId=1225384023&announcementTime=2026-06-24",
+      "type": "重整",
+      "industry": "环保-环境治理-综合环境治理",
+      "brief": "启迪环境科技发展股份有限公司的主营业务是数字环卫业务、水务生态业务和固废处置业务。"
+    },
+    {
+      "stock_code": "000797",
+      "company": "中国武夷",
+      "announcement_date": "2026-06-24",
+      "announcement_time": 1782230400,
+      "title": "关于收到控股子公司福州复寅49%股权司法拍卖执行款暨诉讼事项进展的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000797&announcementId=1225384261&announcementTime=2026-06-24",
+      "type": "拍卖",
+      "industry": "房地产-房地产开发-住宅开发",
+      "brief": "中国武夷实业股份有限公司的主营业务是国内综合地产与国际工程、供应链综合服务、物业服务及创新投资。"
+    },
+    {
+      "stock_code": "000826",
+      "company": "*ST启环",
+      "announcement_date": "2026-06-24",
+      "announcement_time": 1782230400,
+      "title": "关于持股5%以上股东部分股份拍卖流拍的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000826&announcementId=1225384024&announcementTime=2026-06-24",
+      "type": "拍卖",
+      "industry": "环保-环境治理-综合环境治理",
+      "brief": "启迪环境科技发展股份有限公司的主营业务是数字环卫业务、水务生态业务和固废处置业务。"
+    },
+    {
+      "stock_code": "002650",
+      "company": "ST加加",
+      "announcement_date": "2026-06-24",
+      "announcement_time": 1782230400,
+      "title": "关于公司委托加工剩余部分库存资产取回暨收到部分库存资产拍卖变价所得款的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900021914&announcementId=1225383340&announcementTime=2026-06-24",
+      "type": "拍卖",
+      "industry": "食品饮料-调味发酵品Ⅱ-调味发酵品Ⅲ",
+      "brief": "加加食品集团股份有限公司的主营业务是酱油、植物油、食醋、鸡精、蚝油、料酒、味精等的生产及销售。"
+    },
     {
       "stock_code": "300027",
       "company": "ST华谊",
