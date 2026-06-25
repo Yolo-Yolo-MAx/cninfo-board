@@ -1,7 +1,62 @@
 {
-  "updated_at": "2026-06-24T23:56:16.002006",
-  "total": 146,
+  "updated_at": "2026-06-25T11:58:43.217253",
+  "total": 151,
   "records": [
+    {
+      "stock_code": "000793",
+      "company": "*ST华闻",
+      "announcement_date": "2026-06-25",
+      "announcement_time": 1782316800,
+      "title": "关于向重整投资人完成股票过户的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000793&announcementId=1225386351&announcementTime=2026-06-25",
+      "type": "重整",
+      "industry": "传媒-出版-大众出版",
+      "brief": "华闻传媒投资集团股份有限公司的主营业务是从事文旅业务、传媒业务等的经营。"
+    },
+    {
+      "stock_code": "002514",
+      "company": "*ST宝馨",
+      "announcement_date": "2026-06-25",
+      "announcement_time": 1782316800,
+      "title": "关于公司控股股东部分股份流拍暨二次拍卖的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900016129&announcementId=1225386481&announcementTime=2026-06-25",
+      "type": "拍卖",
+      "industry": "机械设备-通用设备-金属制品",
+      "brief": "江苏宝馨科技股份有限公司的主营业务是智能制造业务、新能源业务。"
+    },
+    {
+      "stock_code": "002482",
+      "company": "广田集团",
+      "announcement_date": "2026-06-25",
+      "announcement_time": 1782316800,
+      "title": "关于持股5%以上股东部分股份被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900014775&announcementId=1225385682&announcementTime=2026-06-25",
+      "type": "拍卖",
+      "industry": "建筑装饰-装修装饰Ⅱ-装修装饰Ⅲ",
+      "brief": "深圳广田集团股份有限公司的主营业务是装饰设计与装饰工程施工。"
+    },
+    {
+      "stock_code": "002191",
+      "company": "劲嘉股份",
+      "announcement_date": "2026-06-25",
+      "announcement_time": 1782316800,
+      "title": "关于控股股东所持部分股份被司法拍卖结果的提示性公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900003910&announcementId=1225385191&announcementTime=2026-06-25",
+      "type": "拍卖",
+      "industry": "轻工制造-包装印刷-纸包装",
+      "brief": "深圳劲嘉集团股份有限公司的主营业务是中高端消费品牌的精品纸包装，镭射纸/膜、电子材料等新材料产品及新型烟草制品。"
+    },
+    {
+      "stock_code": "000615",
+      "company": "*ST美谷",
+      "announcement_date": "2026-06-25",
+      "announcement_time": 1782316800,
+      "title": "关于拍卖处置资产的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000615&announcementId=1225385055&announcementTime=2026-06-25",
+      "type": "拍卖",
+      "industry": "美容护理-医疗美容-医美服务",
+      "brief": "九州美谷科技股份有限公司的主营业务是生物基纤维业务和医疗美容服务业务。"
+    },
     {
       "stock_code": "000826",
       "company": "*ST启环",
