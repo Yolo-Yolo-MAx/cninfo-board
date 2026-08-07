@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-08-06T23:56:27.049199",
-  "total": 158,
+  "updated_at": "2026-08-07T13:15:44.795786",
+  "total": 160,
   "records": [
+    {
+      "stock_code": "603922",
+      "company": "ST金鸿顺",
+      "announcement_date": "2026-08-07",
+      "announcement_time": 1786032000,
+      "title": "金鸿顺关于控股股东所持公司部分股份将被司法拍卖的公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=9900032570&announcementId=1225461851&announcementTime=2026-08-07",
+      "type": "拍卖",
+      "industry": "",
+      "brief": ""
+    },
+    {
+      "stock_code": "000796",
+      "company": "凯撒旅业",
+      "announcement_date": "2026-08-07",
+      "announcement_time": 1786032000,
+      "title": "关于子公司股权被司法拍卖的进展公告",
+      "url": "https://www.cninfo.com.cn/new/disclosure/detail?orgId=gssz0000796&announcementId=1225461082&announcementTime=2026-08-07",
+      "type": "拍卖",
+      "industry": "",
+      "brief": ""
+    },
     {
       "stock_code": "002168",
       "company": "ST惠程",
